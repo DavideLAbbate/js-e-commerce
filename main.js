@@ -33,12 +33,11 @@ let gino = 0;
 
     piuClick.addEventListener("click", () => {
         gino++;
-        // document.getElementById("testo").innerHTML;
         txt.innerHTML = parseInt(gino);
     });
 
     menoClick.addEventListener("click", ()=> {
-        gino--;
+        (txt.innerHTML >0) ? gino-- :''
         txt.innerHTML= parseInt(gino);
     })
     
