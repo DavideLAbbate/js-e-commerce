@@ -15,7 +15,7 @@ li{
 }
 
 
-
+/* header */
 header{
     width: 70%;
     margin: 10px auto;
@@ -49,6 +49,9 @@ header{
     height:55px;
 }
 
+
+/* header end */
+
 .giga-container{
     display:flex;
     margin: 50px auto;
@@ -56,6 +59,8 @@ header{
     height: 900px;
 }
 
+
+/* sneaker section */
 .images{
     width: 45%;
     height: 900px;
@@ -96,6 +101,10 @@ header{
     border: 3px solid coral;
 }
 
+/* sneaker end */
+
+
+/* product info */
 .product-info{
     width: 45%;
     margin-left: 120px;
@@ -215,6 +224,10 @@ p{
     display: flex;
     align-items: center;
 }
+
+/* end product info */
+
+/* js utils */
 
 .giga-img1{
     background-image: url(./img/image-product-1.jpg);
