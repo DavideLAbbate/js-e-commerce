@@ -74,12 +74,15 @@ header{
 
 .giga-img{
     height: 507px;
-    background-image: url(./img/image-product-1.jpg);
-    background-position: center;
+    /* background-image: url(./img/image-product-1.jpg); */
+    /* background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 15px;
+    background-repeat: no-repeat; */
+}
 
+.img-giga{
+    height: 507px;
+    border-radius: 15px;
 
 }
 
@@ -87,7 +90,6 @@ header{
     padding-top: 20px;
     display:flex;
     justify-content: space-between;
-
 }
 
 
@@ -229,7 +231,7 @@ p{
 
 /* js utils */
 
-.giga-img1{
+/* .giga-img1{
     background-image: url(./img/image-product-1.jpg);
 }
 
@@ -241,4 +243,4 @@ p{
 }
 .giga-img4{
     background-image: url(./img/image-product-4.jpg);
-}
+} */
